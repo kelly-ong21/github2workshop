@@ -7,6 +7,7 @@ public static void main(String[] args){
       Scanner keyboard = new Scanner (System.in);
       amount = keyboard.nextInt();
       System.out.println("You bought an item for " + amount + " cents and gave me a dollar,");
+      System.out.println("Wow thats cheap!");
       int amount3 = 100;
       amount2 = amount3 - amount;
       Quarter = amount2 / 25;
