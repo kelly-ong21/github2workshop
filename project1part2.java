@@ -5,6 +5,5 @@ public class project1part2 {
         Scanner keyboard = new Scanner (System.in);
         String binary = keyboard.nextLine();
         int b = Integer.parseInt(binary,2);
-        System.out.println(b);  
       }
 }    
